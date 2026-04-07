@@ -1,0 +1,97 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0F172A;
+    color: #F1F5F9;
+}
+
+h1, h2, h5 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(15, 23, 42, 0.9);
+}
+
+.navbar-brand {
+    color: #3B82F6 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #8B5CF6 !important;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #0F172A, #1E293B);
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #3B82F6;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #8B5CF6;
+    transform: scale(1.1);
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.about-section {
+    background-color: #F1F5F9;
+    color: #0F172A;
+}
+
+.profile-box {
+    font-size: 6rem;
+    background: #3B82F6;
+    padding: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.profile-box:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.portfolio-section {
+    background-color: #1E293B;
+}
+
+.custom-card {
+    background-color: #0F172A;
+    border: none;
+    transition: 0.4s;
+}
+
+.custom-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.contact-section {
+    background-color: #F1F5F9;
+    color: #0F172A;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
